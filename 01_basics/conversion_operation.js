@@ -23,6 +23,26 @@ let booleanLoggedIn = Boolean(loggedIn)
 let someNumber = 45
 
 let stringNumber = String(someNumber)
-console.log(stringNumber)
+// console.log(stringNumber)
 
-console.log (typeof stringNumber)
+// console.log (typeof stringNumber)
+
+// *************operation*******************************//
+
+let value = 3
+let negativeValue = -value
+
+// console.log(negativeValue)
+
+// console.log ("1" + 2);
+// console.log (1 + "2");
+// console.log ("1" + 2 + 2)
+// console.log (1 + 2 + "2")
+
+console.log(+true)
+console.log(+"");
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
