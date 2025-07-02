@@ -30,3 +30,11 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max-min+1))+min)
+
+function rollDice() {
+  // Generates a number between 1 and 6
+  return Math.floor(Math.random() * 6) + 1;
+}
+
+// Example usage
+console.log("You rolled a", rollDice());
