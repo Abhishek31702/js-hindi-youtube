@@ -52,13 +52,32 @@ const user = [
     }
 ]
 
-console.log(user[1])
+// console.log(user[1].email)
 
-console.log(faceUser)
+// console.log(faceUser)
 
 
-console.log(Object.keys(faceUser))
-console.log(Object.values(faceUser))
-console.log(Object.entries(faceUser))
+// console.log(Object.keys(faceUser))
+// console.log(Object.values(faceUser))
+// console.log(Object.entries(faceUser))
 
-// 5 MIN PENDING
+// console.log(Object.hasOwnProperty("id"));   
+
+
+const course = {
+    coursename : "js hindi",
+    price : 899,
+    courseInstructor : 'abhishek'
+
+}
+
+const {price : rupee} = course
+
+
+console.log(rupee);
+
+
+// {
+//     "name" : abhishek,
+//     "coursename" : "js hindi",
+// }
