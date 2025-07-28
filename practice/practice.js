@@ -66,7 +66,16 @@
 
 // 
 
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then(response => response.json()) // convert to JSON
-  .then(data => console.log(data))   // show the data
-  .catch(error => console.log("Error:", error));
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then(response => response.json()) // convert to JSON
+//   .then(data => console.log(data))   // show the data
+//   .catch(error => console.log("Error:", error));
+
+
+function longestWord(sentence) {
+
+    console.log(sentence.split(" "))
+    
+}
+
+longestWord("The quick brown fox jumps over the lazy dog")

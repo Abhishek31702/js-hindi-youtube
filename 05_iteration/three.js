@@ -16,12 +16,17 @@ for (const element of string) {
     
 }
 
-
-const map = new Map()
-map.set('IND','INDIA')
-
-console.log(map);
-
-for (const key of map) {
-    console.log(key)
+const greeting = "hello world"
+for (const greet of greeting) {
+    console.log(greet)
 }
+
+
+// const map = new Map()
+// map.set('IND','INDIA')
+
+// console.log(map);
+
+// for (const key of map) {
+//     console.log(key)
+// }
