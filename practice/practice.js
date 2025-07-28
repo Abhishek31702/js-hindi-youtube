@@ -74,8 +74,12 @@
 
 function longestWord(sentence) {
 
-    console.log(sentence.split(" "))
+    console.log(sentence.split(' '))
+    let longestWordFound = ''
     
+    for (const words of sentence) {
+        console.log(words)
+    }
 }
 
 longestWord("The quick brown fox jumps over the lazy dog")
