@@ -47,3 +47,48 @@
 
 // findSmallest(1,8,9)
 
+//Write a function that returns a reverse of a string
+
+// function reverse(string){
+//     return string.split('').reverse().join('')
+// }
+
+// console.log(reverse("hello"))
+
+//Write a function that calculate factorial of a given number
+
+// function factorial(n) {
+//     if (n === 0) {
+//         console.log("number is zero");
+//         console.log(1);  // factorial of 0 is 1
+//     } else {
+//         let result = 1;
+//         for (let i = 1; i <= n; i++) {
+//             result *= i;
+//         }
+//         console.log(result);
+//     }
+// }
+
+// factorial(9);  
+
+
+//Write a function that tells if provided year is a leap year or not
+
+// function leapYear(n){
+//  if (n%4==0){
+//    console.log("it is a leap year")
+//  } else {
+//    console.log("not a leap");
+   
+//  }
+// }
+
+// leapYear(2027)
+
+
+//Write a function that calculates and prints the sum of the digits of a given number
+
+function digitLength(){
+    
+}
