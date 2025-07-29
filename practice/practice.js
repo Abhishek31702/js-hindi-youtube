@@ -72,14 +72,59 @@
 //   .catch(error => console.log("Error:", error));
 
 
-function longestWord(sentence) {
+// function longestWord(sentence) {
 
-    console.log(sentence.split(' '))
-    let longestWordFound = ''
+//     console.log(sentence.split(' '))
+//     let longestWordFound = ''
     
-    for (const words of sentence) {
-        console.log(words)
-    }
-}
+//     for (const words of sentence) {
+//         console.log(words)
+//     }
+// }
 
-longestWord("The quick brown fox jumps over the lazy dog")
+// longestWord("The quick brown fox jumps over the lazy dog")
+
+
+// console.log("Start");
+
+// setTimeout(() => {
+//   console.log("This runs after 2 seconds");
+// }, 2000);
+
+// console.log("End");
+
+// function greet (name,callback){
+//     console.log(`hello ${name}`)
+//     callback()
+// }
+
+// function sayBye(){
+//     console.log("bye");
+    
+// }
+
+// greet('abhishek',sayBye)
+
+
+// setTimeout(() => {
+//     console.log("10")
+// },1000);
+// setTimeout(() => {
+//     console.log("9")
+// },2000);
+
+// function downloadFile(fileName, callback) {
+//   console.log(`Downloading ${fileName}...`);
+
+//   setTimeout(() => {
+//     console.log(`${fileName} downloaded.`);
+//     callback();
+//   }, 2000);
+// }
+
+// function processFile() {
+//   console.log("Processing the downloaded file...");
+// }
+
+// // Call the functions
+// downloadFile("file1.txt", processFile);
