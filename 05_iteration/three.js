@@ -22,12 +22,38 @@
 // }
 
 
-const map = new Map()
-map.set('IND','INDIA')
-map.set('FR','FRANCE')
+// const map = new Map()
+// map.set('IND','INDIA')
+// map.set('FR','FRANCE')
 
 // console.log(map);
 
-for (const [key,value] of map) {
-    console.log(key,':-',value)
-}
+// for (const [key,value] of map) {
+//     console.log(key,':-',value)
+// }
+
+
+// const myObject = {
+//     "game1" : "nfs",
+//     "game2" : "coc"
+// }
+
+// for (const key in myObject) {
+//     console.log(`${key} is ${myObject[key]}`)
+// }
+
+
+// const languages = ["cpp","python", 'javascript',"ruby"]
+
+
+// for (const key in languages) {
+//     console.log(languages[key])
+// }
+
+// const map = new Map()
+// map.set('IND','INDIA')
+// map.set('FR','FRANCE')
+
+// for (const key in map) {
+//     console.log(key)
+// }

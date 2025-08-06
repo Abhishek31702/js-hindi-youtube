@@ -1,12 +1,31 @@
-// const coding = ["cpp","java","python","js","ruby"]
+// higher order
 
-// const value = coding.forEach( (item) =>{
-//     // 
-//     // console.log(item);
-//     return item;
-    
+
+const coding = ['js','python','java',"ruby"]
+
+// coding.forEach((item) => {
+//     console.log(item)
 // })
 
-// console.log(value)
+// coding.forEach((item,index,arr)=>{
+//     console.log(item,index,arr)
+// })
 
-const myNum = [1,2,3,4,5,6,7]
+const myCoding = [
+    {
+        languageName : "javascript",
+        languageFilename : "js"
+    },
+    {
+        languageName : "python",
+        languageFilename : "py"
+    },
+    {
+        languageName : "c++",
+        languageFilename : "cpp"
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageFilename)
+})
