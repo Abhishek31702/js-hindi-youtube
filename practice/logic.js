@@ -1,4 +1,4 @@
-//Write a program that prints "Hello World" on the console
+// Write a program that prints "Hello World" on the console
 
 // console.log("hello world")
 
@@ -20,7 +20,7 @@
 // areaTriangle(7,8)
 
 
-//Write a function that tells if a given number is even or odd
+// Write a function that tells if a given number is even or odd
 
 // function findOddEven(n){
 //     if(n%2 === 0){
@@ -32,7 +32,7 @@
 //  findOddEven(8)
 
 
-//Write a function that finds and prints the smallest number among three given numbers
+// Write a function that finds and prints the smallest number among three given numbers
 
 // function findSmallest (num1,num2,num3){
 //     if (num1<<num2 && num1 << num3){
@@ -47,7 +47,7 @@
 
 // findSmallest(1,8,9)
 
-//Write a function that returns a reverse of a string
+// Write a function that returns a reverse of a string
 
 // function reverse(string){
 //     return string.split('').reverse().join('')
@@ -55,7 +55,7 @@
 
 // console.log(reverse("hello"))
 
-//Write a function that calculate factorial of a given number
+// Write a function that calculate factorial of a given number
 
 // function factorial(n) {
 //     if (n === 0) {
@@ -73,7 +73,7 @@
 // factorial(9);  
 
 
-//Write a function that tells if provided year is a leap year or not
+// Write a function that tells if provided year is a leap year or not
 
 // function leapYear(n){
 //  if (n%4==0){
@@ -87,8 +87,10 @@
 // leapYear(2027)
 
 
-//Write a function that calculates and prints the sum of the digits of a given number
+// Write a function that calculates and prints the sum of the digits of a given number
 
-function digitLength(){
+// function digitLength(){
     
-}
+// }
+
+
