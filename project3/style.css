@@ -23,14 +23,11 @@ input {
   border-radius: 5px;
 }
 
-#strength {
+#strength,#number,#uppercase,#char {
   margin-top: 15px;
   font-weight: bold;
 }
-#number {
-    margin-top: 15px;
-    font-weight: bold;
-}
+
 
 button#button {
     margin: 10px;
