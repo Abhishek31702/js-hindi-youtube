@@ -1,0 +1,14 @@
+#dropdown {
+    display:none;
+}
+#newaddfilter {
+    display: none;
+}
+
+.addfilter-container {
+    display: -webkit-inline-box;
+}
+
+#dropdowntwo{
+    display: none;
+}
