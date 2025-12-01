@@ -1,25 +1,51 @@
-class TicketBooking {
-    bookTicket(userName, movie, seats){
-        this.#checkAvailability();
-        this.#processPayment();
-        this.#generateTicket();
-        console.log("Your Movie Ticket has been Booked");
+class TrainTicket {
+    // private properties
+    #name;
+    #destination;
+    #fare = 0;
 
+    // setter for passenger name
+    set passenger(name) {
+        this.#name = name;
+    }
 
-        #checkAvailability() {
-            console.log("Processing your request…");
+    // setter for destination
+    set travel(destination) {
+        this.#destination = destination;
+    }
+
+    // private method to calculate fare (hidden logic)
+    #calculateFare() {
+        if (this.#destination === "Mumbai") {
+            this.#fare = 200;
+        } else if (this.#destination === "Delhi") {
+            this.#fare = 500;
+        } else if (this.#destination === "Chennai") {
+            this.#fare = 400;
+        } else {
+            this.#fare = 300; // default fare
         }
+    }
 
-        #processPayment() {
-            console.log("Payment successful…")
-        }
+    // getter to show ticket info
+    get ticketInfo() {
+        return `
+Passenger Name: ${this.#name}
+Destination: ${this.#destination}
+Fare: ₹${this.#fare}
+`;
+    }
 
-        #generateTicket() {
-            console.log("generateTicket()")
-        }
-
+    // public method to book ticket
+    bookTicket() {
+        this.#calculateFare(); // hidden logic call
+        console.log("✅ Your ticket has been booked successfully!");
     }
 }
 
-const newTicket = new TicketBooking();
-newTicket.bookTicket('abhishek','KGF',"Center")
+// Object creation and testing
+const ticket = new TrainTicket();
+ticket.passenger = "Abhishek";
+ticket.travel = "Delhi";
+ticket.bookTicket();
+console.log(ticket.ticketInfo);
